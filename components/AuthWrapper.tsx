@@ -4,7 +4,7 @@ import "@aws-amplify/ui-react/styles.css";
 
 export default function AuthWrapper() {
     return (
-        <Authenticator>
+        <Authenticator hideSignUp={true}>
             {({ signOut, user }) => (
                 <div className="min-h-screen bg-gray-50">
                     <nav className="bg-white shadow-sm">
